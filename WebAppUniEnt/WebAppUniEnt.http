@@ -1,0 +1,6 @@
+@WebAppUniEnt_HostAddress = http://localhost:5054
+
+GET {{WebAppUniEnt_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
