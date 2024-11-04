@@ -6,11 +6,11 @@ namespace WebAppUniEnt.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class StudentController : ControllerBase
+    public class StudentController2 : ControllerBase
     {
         private readonly DbManager accessDB;
 
-        public StudentController()
+        public StudentController2()
         {
             accessDB = new DbManager(StaticaDbConnection.ConnectionString);
         }
