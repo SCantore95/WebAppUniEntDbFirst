@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace WebAppUniEnt
 {
-    public class Program
+    public class ProgramCopia
     {
         public static void Main(string[] args)
         {
